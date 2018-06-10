@@ -1,8 +1,7 @@
 package com.cier.syl;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class StreamDemo {
     public static void main(String[] args) {
@@ -11,11 +10,82 @@ public class StreamDemo {
         // 统计空字符串的数量
         List<String> strings = Arrays.asList("efg", "", "abc", "bc", "ghij", "", "lmn");
         System.out.println("List:" + strings);
-        System.out.println("=========");
+        System.out.println();
         long count = getCountEmptyStringUsingJava7(strings);
         System.out.println("Empty Strings:" + count);
-        System.out.println("=========");
+        System.out.println();
+        count = getCountLength3UsingJava7(strings);
+        System.out.println("字符串长度为 3 的数量:"+count);
+        System.out.println();
 
+        // 消除空字符串
+        List<String> filtered = deleteEmptyStringsUsingJava7(strings);
+        System.out.println(filtered);
+        System.out.println();
+
+        // 消除空字符串，同时使用逗号来连接
+        String mergedString = getMergedStringUsingJava7(strings,",");
+        System.out.println(mergedString);
+        System.out.println();
+
+        // 获得不同数字的平方的列表
+        List<Integer> numbers = Arrays.asList(1,2,2,3,4,5,6,7);
+        List<Integer> squaresList = getSquares(numbers);
+        System.out.println(squaresList);
+        System.out.println();
+
+        List<Integer> integers = Arrays.asList(1,2,3,343,55,3245,54,34,54);
+        System.out.println(integers);
+        System.out.println(getMax(integers));
+        System.out.println(getMin(integers));
+        System.out.println(getSum(integers));
+        System.out.println(getAverage(integers));
+        System.out.println(getSquares(integers));
+        System.out.println();
+
+        // 输出十个随机数
+        System.out.println("十个随机数");
+        Random random = new Random();
+        for (int i = 0; i < 10; i++){
+            System.out.println(random.nextInt());
+        }
+
+        // 使用 Java 8 的新特性
+        System.out.println(strings);
+        System.out.println();
+
+        // 判断空值
+        count = strings.stream().filter(s -> s.isEmpty()).count();
+        System.out.println(count);
+
+        // 判断长度
+        count = strings.stream().filter(s -> s.length()==3).count();
+        System.out.println(count);
+
+        // 删除空字符串
+        filtered = strings.stream().filter(s -> !s.isEmpty()).collect(Collectors.toList());
+        System.out.println(filtered);
+
+        // 去掉空字符串再合并字符串
+        mergedString = strings.stream().filter(s -> !s.isEmpty()).collect(Collectors.joining(","));
+        System.out.println(mergedString);
+        // 将集合中的数平方,去重
+        squaresList = numbers.stream().map(integer -> integer * integer).distinct().collect(Collectors.toList());
+        System.out.println(squaresList);
+        // 统计
+        IntSummaryStatistics intSummaryStatistics = integers.stream().mapToInt((x)->x).summaryStatistics();
+        System.out.println(intSummaryStatistics.getMax());
+        System.out.println(intSummaryStatistics.getCount());
+        System.out.println(intSummaryStatistics.getMin());
+        System.out.println(intSummaryStatistics.getAverage());
+        System.out.println(intSummaryStatistics.getSum());
+
+        // 生成随机数
+        random.ints().limit(10).forEach(System.out::println);
+
+        // 并行处理
+        count = strings.parallelStream().filter(s -> !s.isEmpty()).count();
+        System.out.println(count);
     }
 
     /**
