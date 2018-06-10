@@ -2,6 +2,7 @@ package com.cier.syl;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StreamDemo {
     public static void main(String[] args) {
@@ -15,7 +16,7 @@ public class StreamDemo {
         System.out.println("Empty Strings:" + count);
         System.out.println();
         count = getCountLength3UsingJava7(strings);
-        System.out.println("字符串长度为 3 的数量:"+count);
+        System.out.println("字符串长度为 3 的数量:" + count);
         System.out.println();
 
         // 消除空字符串
@@ -24,17 +25,17 @@ public class StreamDemo {
         System.out.println();
 
         // 消除空字符串，同时使用逗号来连接
-        String mergedString = getMergedStringUsingJava7(strings,",");
+        String mergedString = getMergedStringUsingJava7(strings, ",");
         System.out.println(mergedString);
         System.out.println();
 
         // 获得不同数字的平方的列表
-        List<Integer> numbers = Arrays.asList(1,2,2,3,4,5,6,7);
+        List<Integer> numbers = Arrays.asList(1, 2, 2, 3, 4, 5, 6, 7);
         List<Integer> squaresList = getSquares(numbers);
         System.out.println(squaresList);
         System.out.println();
 
-        List<Integer> integers = Arrays.asList(1,2,3,343,55,3245,54,34,54);
+        List<Integer> integers = Arrays.asList(1, 2, 3, 343, 55, 3245, 54, 34, 54);
         System.out.println(integers);
         System.out.println(getMax(integers));
         System.out.println(getMin(integers));
@@ -46,7 +47,7 @@ public class StreamDemo {
         // 输出十个随机数
         System.out.println("十个随机数");
         Random random = new Random();
-        for (int i = 0; i < 10; i++){
+        for (int i = 0; i < 10; i++) {
             System.out.println(random.nextInt());
         }
 
@@ -59,7 +60,7 @@ public class StreamDemo {
         System.out.println(count);
 
         // 判断长度
-        count = strings.stream().filter(s -> s.length()==3).count();
+        count = strings.stream().filter(s -> s.length() == 3).count();
         System.out.println(count);
 
         // 删除空字符串
@@ -73,7 +74,7 @@ public class StreamDemo {
         squaresList = numbers.stream().map(integer -> integer * integer).distinct().collect(Collectors.toList());
         System.out.println(squaresList);
         // 统计
-        IntSummaryStatistics intSummaryStatistics = integers.stream().mapToInt((x)->x).summaryStatistics();
+        IntSummaryStatistics intSummaryStatistics = integers.stream().mapToInt((x) -> x).summaryStatistics();
         System.out.println(intSummaryStatistics.getMax());
         System.out.println(intSummaryStatistics.getCount());
         System.out.println(intSummaryStatistics.getMin());
@@ -86,6 +87,45 @@ public class StreamDemo {
         // 并行处理
         count = strings.parallelStream().filter(s -> !s.isEmpty()).count();
         System.out.println(count);
+
+        // 过滤
+        Stream.of(1, 2, 3, 4, 5, 6).filter(e -> e % 2 == 0).forEach(System.out::println);
+        // concat 将两个 Stream 连接到一起，合成一个 Stream
+        Stream.concat(Stream.of(1, 2, 3, 4), Stream.of(2, 3, 4, new StreamDemo())).forEach(System.out::println);
+        // distinct 方法用于去除原来的 Stream 中重复的元素，生成的新的 Stream 没有重复的元素
+        Stream.concat(Stream.of(1, 3, 4, 5, 2), Stream.of(2, 2, 3, 1, 4)).distinct().forEach(System.out::println);
+        System.out.println();
+        // 排序
+        integers.stream().sorted().forEach(System.out::println);
+        strings.stream().filter(s -> !s.isEmpty()).sorted((o1, o2) -> o1.length() - o2.length()).forEach(System.out::println);
+        System.out.println();
+        // min
+        String min = strings.stream().filter(s -> !s.isEmpty()).min((o1, o2) -> o1.length() - o2.length()).get();
+        System.out.println(min);
+
+        // max
+        String max = strings.stream().filter(s -> !s.isEmpty()).max((o1, o2) -> o1.length() - o2.length()).get();
+        System.out.println(max);
+
+        // Short-circuiting 方法
+        // allMatch
+        boolean b = Stream.of(10, 2, 30, 4, 50, 33).allMatch(e -> e % 2 == 0);
+        System.out.println(b);
+
+        // anyMatch
+        b = Stream.of(101, 21, 301, 41, 501, 33).anyMatch(e -> e % 2 == 0);
+        System.out.println(b);
+
+        // findFirst
+        Integer i = Stream.of(1,2,3,4,5,6).findFirst().get();
+        System.out.println(i);
+
+        // limit
+        Stream.of(1,2,3,4,5,6).limit(2).forEach(System.out::println);
+
+        // noneMatch
+        b = Stream.of(1,2,3,4,5,6).noneMatch(e -> e >10);
+        System.out.println(b);
     }
 
     /**
@@ -208,6 +248,7 @@ public class StreamDemo {
 
     /**
      * 自定义的用于获得 List 中各个数字的和的方法
+     *
      * @param numbers
      * @return
      */
@@ -221,10 +262,11 @@ public class StreamDemo {
 
     /**
      * 自定义的用于获得List中各个数字的平均值的方法
+     *
      * @param numbers
      * @return
      */
-    public static double getAverage(List<Integer> numbers){
-        return getSum(numbers)/numbers.size();
+    public static double getAverage(List<Integer> numbers) {
+        return getSum(numbers) / numbers.size();
     }
 }
