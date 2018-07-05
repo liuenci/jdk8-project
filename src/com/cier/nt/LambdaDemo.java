@@ -46,6 +46,8 @@ public class LambdaDemo {
         // 方法引用
         Int in2 = System.out::println;
         in2.output(222);
+
+
     }
 }
 
