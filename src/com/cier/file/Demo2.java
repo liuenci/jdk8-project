@@ -4,9 +4,10 @@ import java.io.File;
 import java.io.IOException;
 
 public class Demo2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         // demo1();
         // demo2();
+        Demo2.demo1();
     }
 
     public static void demo2() {
@@ -20,6 +21,7 @@ public class Demo2 {
         System.out.println(file2.mkdir());
         // 创建多级目录
         System.out.println(file2.mkdirs());
+
     }
 
     public static void demo1() throws IOException {
