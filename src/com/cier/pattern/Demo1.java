@@ -1,5 +1,9 @@
 package com.cier.pattern;
 
+/**
+ * 装饰模式
+ * 耦合性不强，被装饰的类的变化与装饰类的变化无关
+ */
 public class Demo1 {
 
     public static void main(String[] args) {
