@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d39854e-9f3d-4fb4-8b61-76800143a08a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/io/Demo8.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/test/Test6.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/b.txt" afterPath="$PROJECT_DIR$/b.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,16 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Demo4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cier/io/Demo4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Demo6.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cier/io/Demo6.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,7 +37,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo8.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Demo8.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cier/io/Demo8.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="217">
@@ -56,6 +45,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test6.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cier/test/Test6.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,25 +109,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cier/pojo/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="68" lean-forward="false" selection-start-line="6" selection-start-column="68" selection-end-line="6" selection-end-column="68" />
-              <folding>
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#329#330#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#428#429#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -154,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cier/nt/NewFeaturesTester.java" />
         <option value="$PROJECT_DIR$/src/com/cier/nt/StreamDemo.java" />
         <option value="$PROJECT_DIR$/src/com/cier/syl/StreamDemo.java" />
         <option value="$PROJECT_DIR$/src/com/cier/nt/LocalDateTimeDemo.java" />
@@ -205,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/com/cier/io/Demo6.java" />
         <option value="$PROJECT_DIR$/src/com/cier/io/Demo7.java" />
         <option value="$PROJECT_DIR$/src/com/cier/io/Demo8.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/test/Test6.java" />
       </list>
     </option>
   </component>
@@ -348,7 +328,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo8">
+  <component name="RunManager" selected="Application.Test6">
     <configuration name="Demo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -357,25 +337,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.cier.io.Demo4" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="jdk8-project" />
-      <envs />
-    </configuration>
-    <configuration name="Demo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.cier.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.cier.io.Demo5" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -444,6 +405,25 @@
       <module name="jdk8-project" />
       <envs />
     </configuration>
+    <configuration name="Test6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cier.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.cier.test.Test6" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jdk8-project" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -461,18 +441,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Demo4" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Demo5" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Demo6" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Demo7" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Demo8" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Demo6" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Demo7" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Demo8" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Test6" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Demo8" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Demo7" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Demo6" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Demo4" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Demo5" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Test6" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Demo8" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Demo7" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Demo6" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Demo4" />
       </list>
     </recent_temporary>
   </component>
@@ -505,12 +485,12 @@
       <workItem from="1530793265694" duration="4576000" />
       <workItem from="1531191022808" duration="24734000" />
       <workItem from="1531363465712" duration="8541000" />
-      <workItem from="1531382109595" duration="5574000" />
+      <workItem from="1531382109595" duration="6317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87978000" />
+    <option name="totallyTimeSpent" value="88721000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="92" width="1616" height="916" extended-state="6" />
@@ -561,14 +541,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/cier/nt/LambdaDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="53" column="10" lean-forward="false" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cier/reader.java" />
     <entry file="file://$PROJECT_DIR$/src/com/cier/file/Demo6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -936,6 +908,19 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/copy.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/test/Test6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
