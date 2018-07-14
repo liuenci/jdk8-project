@@ -44,6 +44,13 @@ public class Demo5 {
         }.start();
     }
 }
+
+/**
+ * 在同步代码块中，用哪个对象锁，就用哪个对象调用 wait 方法
+ * 为什么 wait 方法和 notify 方法定义在 Object 类中？ 因为所对象可以是任意对象，Object 是所有的类的基类，所以 wait 和 notify 方法需要定义在 Object 这个类中
+ * sleep 方法和 wait 方法的区别？ sleep 方法必须传入参数，参数就是时间，时间到了自动醒来。wait 方法可以传入参数，也可以不传入参数，传入参数就是在参数的时间结束后等待，不传入就是直接等待。
+ * sleep 方法在同步函数或同步代码块中，不释放锁，睡着了也抱着锁睡。wait 方法在同步函数或者同步代码块中，释放锁。
+ */
 class Printer2 {
     private int flag = 1;
     public  void print1() throws InterruptedException {
