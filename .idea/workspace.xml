@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d39854e-9f3d-4fb4-8b61-76800143a08a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/socket/Demo1_Send.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/socket/Demo2_Receive.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/socket/Demo3_Send.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/socket/Demo4_Receive.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo1_Send.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Demo1_Send.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cier/socket/Demo1_Send.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
@@ -68,6 +68,26 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo3_Send.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cier/socket/Demo3_Send.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61">
+              <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo4_Receive.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cier/socket/Demo4_Receive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -113,8 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/b,txt" />
-        <option value="$PROJECT_DIR$/c.txt" />
         <option value="$PROJECT_DIR$/src/com/cier/io/Demo1.java" />
         <option value="$PROJECT_DIR$/src/com/cier/io/Demo2.java" />
         <option value="$PROJECT_DIR$/src/com/cier/test/Test5.java" />
@@ -164,6 +182,8 @@
         <option value="$PROJECT_DIR$/src/com/cier/factory/AnimalFactory.java" />
         <option value="$PROJECT_DIR$/src/com/cier/socket/Demo2_Receive.java" />
         <option value="$PROJECT_DIR$/src/com/cier/socket/Demo1_Send.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/socket/Demo3_Send.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/socket/Demo4_Receive.java" />
       </list>
     </option>
   </component>
@@ -277,11 +297,14 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\IdeaProjects\jdk8-project" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\IdeaProjects\jdk8-project\src\com\cier\syn" />
+      <recent name="E:\IdeaProjects\jdk8-project" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cier.socket" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IdeaProjects\jdk8-project" />
     </key>
   </component>
@@ -297,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo1_Send">
+  <component name="RunManager" selected="Application.Demo3_Send">
     <configuration name="Demo1_Send" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -336,14 +359,33 @@
       <module name="jdk8-project" />
       <envs />
     </configuration>
-    <configuration name="Demo8_Callable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo3_Send" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.cier.thread2.*" />
+          <option name="PATTERN" value="com.cier.socket.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.cier.thread2.Demo8_Callable" />
+      <option name="MAIN_CLASS_NAME" value="com.cier.socket.Demo3_Send" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jdk8-project" />
+      <envs />
+    </configuration>
+    <configuration name="Demo4_Receive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.cier.socket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.cier.socket.Demo4_Receive" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -374,25 +416,6 @@
       <module name="jdk8-project" />
       <envs />
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.cier.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.cier.factory.Test" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="jdk8-project" />
-      <envs />
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -409,19 +432,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Demo8_Callable" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Test" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Demo2_Receive" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Demo1_Send" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Test (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Demo2_Receive" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Demo1_Send" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Demo4_Receive" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Demo3_Send" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Demo1_Send" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Demo2_Receive" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Demo8_Callable" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Demo3_Send" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Demo4_Receive" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Demo1_Send" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Demo2_Receive" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -457,12 +480,12 @@
       <workItem from="1531382109595" duration="9400000" />
       <workItem from="1531446951253" duration="16576000" />
       <workItem from="1531531006298" duration="14100000" />
-      <workItem from="1531617324551" duration="1587000" />
+      <workItem from="1531617324551" duration="2069000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124067000" />
+    <option name="totallyTimeSpent" value="124549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="92" width="1616" height="916" extended-state="6" />
@@ -477,12 +500,12 @@
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32266325" sideWeight="0.4974293" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32266325" sideWeight="0.4974293" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3277849" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277849" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17802057" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17802057" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -512,20 +535,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/k.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cier/io/Demo7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/a.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -864,6 +873,22 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/socket/Demo4_Receive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/socket/Demo3_Send.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="11" column="52" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
