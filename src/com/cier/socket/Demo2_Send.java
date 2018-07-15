@@ -6,7 +6,7 @@ import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.util.Scanner;
 
-public class Demo3_Send {
+public class Demo2_Send {
     public static void main(String[] args) throws IOException {
         // 可以不指定端口号
         DatagramSocket socket = new DatagramSocket();
