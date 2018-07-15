@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d39854e-9f3d-4fb4-8b61-76800143a08a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/tcp/Demo2_Client.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/tcp/Demo2_Server.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdk8-project/com/cier/tcp/Demo2_Server.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/com/cier/tcp/Demo2_Client.java" afterPath="$PROJECT_DIR$/src/com/cier/tcp/Demo2_Client.java" />
+      <change beforePath="$PROJECT_DIR$/src/com/cier/tcp/Demo2_Server.java" afterPath="$PROJECT_DIR$/src/com/cier/tcp/Demo2_Server.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo1_Client.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Demo1_Client.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/cier/tcp/Demo1_Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="218">
+              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,19 +58,24 @@
       <file leaf-file-name="Demo2_Server.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cier/tcp/Demo2_Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-              <folding />
+            <state relative-caret-position="104">
+              <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+              <folding>
+                <element signature="e#361#1077#0" expanded="true" />
+                <element signature="e#1076#1077#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo2_Client.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Demo2_Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cier/tcp/Demo2_Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="123">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,8 +188,8 @@
         <option value="$PROJECT_DIR$/src/com/cier/socket/Demo3_MoreThread.java" />
         <option value="$PROJECT_DIR$/src/com/cier/socket/Demo4_GUIChat.java" />
         <option value="$PROJECT_DIR$/src/com/cier/tcp/Demo1_Client.java" />
-        <option value="$PROJECT_DIR$/src/com/cier/tcp/Demo2_Server.java" />
         <option value="$PROJECT_DIR$/src/com/cier/tcp/Demo2_Client.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/tcp/Demo2_Server.java" />
       </list>
     </option>
   </component>
@@ -339,7 +342,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo2_Client">
+  <component name="RunManager" selected="Application.Demo1_Client">
     <configuration name="Demo1_Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -478,9 +481,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Demo2_Client" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Demo1_Client" />
         <item index="1" class="java.lang.String" itemvalue="Application.Demo2_Server" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Demo1_Client" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Demo2_Client" />
         <item index="3" class="java.lang.String" itemvalue="Application.Demo1_Server" />
         <item index="4" class="java.lang.String" itemvalue="Application.Demo4_GUIChat" />
       </list>
@@ -518,12 +521,12 @@
       <workItem from="1531382109595" duration="9400000" />
       <workItem from="1531446951253" duration="16576000" />
       <workItem from="1531531006298" duration="14100000" />
-      <workItem from="1531617324551" duration="8797000" />
+      <workItem from="1531617324551" duration="9331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131277000" />
+    <option name="totallyTimeSpent" value="131811000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1432" y="92" width="1616" height="916" extended-state="6" />
@@ -592,6 +595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -713,6 +717,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
           <caret line="50" column="1" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="50" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -924,10 +929,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cier/tcp/Demo1_Client.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cier/tcp/Demo2_Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="123">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -936,17 +941,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/tcp/Demo2_Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-          <folding />
+        <state relative-caret-position="104">
+          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding>
+            <element signature="e#361#1077#0" expanded="true" />
+            <element signature="e#1076#1077#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cier/tcp/Demo2_Client.java">
+    <entry file="file://$PROJECT_DIR$/src/com/cier/tcp/Demo1_Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="218">
+          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
