@@ -14,7 +14,6 @@ public class Test8_UpdateServer {
     public static void main(String[] args) throws IOException {
         ServerSocket serverSocket = new ServerSocket(12345);
 
-
         System.out.println("服务器启动");
 
         // 创建多线程
