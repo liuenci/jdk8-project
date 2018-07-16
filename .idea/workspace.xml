@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d39854e-9f3d-4fb4-8b61-76800143a08a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/juc/Demo4_FutureTask.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/juc/Demo5_BlockingQueue.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,7 +51,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo4_FutureTask.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Demo4_FutureTask.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cier/juc/Demo4_FutureTask.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
@@ -60,6 +60,28 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#443#452#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo5_BlockingQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cier/juc/Demo5_BlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockingQueue.java" pinned="false" current-in-tab="false">
+        <entry file="jar://D:/Java/jdk/src.zip!/java/util/concurrent/BlockingQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="231" column="9" lean-forward="false" selection-start-line="231" selection-start-column="9" selection-end-line="231" selection-end-column="9" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cier/io/Demo9.java" />
         <option value="$PROJECT_DIR$/src/com/cier/thread/Demo1.java" />
         <option value="$PROJECT_DIR$/src/com/cier/thread/Demo2.java" />
         <option value="$PROJECT_DIR$/src/com/cier/runnable/Demo1.java" />
@@ -144,6 +165,7 @@
         <option value="$PROJECT_DIR$/src/com/cier/juc/Demo2_CyclicBarrier.java" />
         <option value="$PROJECT_DIR$/src/com/cier/juc/Demo3_Semaphore.java" />
         <option value="$PROJECT_DIR$/src/com/cier/juc/Demo4_FutureTask.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/juc/Demo5_BlockingQueue.java" />
       </list>
     </option>
   </component>
@@ -285,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo4_FutureTask">
+  <component name="RunManager" selected="Application.Demo5_BlockingQueue">
     <configuration name="Demo2_CyclicBarrier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -324,14 +346,14 @@
       <module name="jdk8-project" />
       <envs />
     </configuration>
-    <configuration name="Demo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo4_FutureTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.cier.thread2.*" />
+          <option name="PATTERN" value="com.cier.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.cier.thread2.Demo4" />
+      <option name="MAIN_CLASS_NAME" value="com.cier.juc.Demo4_FutureTask" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -343,14 +365,14 @@
       <module name="jdk8-project" />
       <envs />
     </configuration>
-    <configuration name="Demo4_FutureTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo5_BlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.cier.juc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.cier.juc.Demo4_FutureTask" />
+      <option name="MAIN_CLASS_NAME" value="com.cier.juc.Demo5_BlockingQueue" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -416,19 +438,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Demo4" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Demo_CountdownLatch" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Demo2_CyclicBarrier" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Demo3_Semaphore" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Demo4_FutureTask" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Demo_CountdownLatch" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Demo2_CyclicBarrier" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Demo3_Semaphore" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Demo4_FutureTask" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Demo5_BlockingQueue" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Demo4_FutureTask" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Demo3_Semaphore" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Demo2_CyclicBarrier" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Demo_CountdownLatch" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Demo4" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Demo5_BlockingQueue" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Demo4_FutureTask" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Demo3_Semaphore" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Demo2_CyclicBarrier" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Demo_CountdownLatch" />
       </list>
     </recent_temporary>
   </component>
@@ -465,12 +487,12 @@
       <workItem from="1531446951253" duration="16576000" />
       <workItem from="1531531006298" duration="14100000" />
       <workItem from="1531617324551" duration="16917000" />
-      <workItem from="1531702145168" duration="5679000" />
+      <workItem from="1531702145168" duration="7268000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145076000" />
+    <option name="totallyTimeSpent" value="146665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="800" y="0" width="800" height="860" extended-state="0" />
@@ -521,20 +543,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/cier/factory/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="31" lean-forward="false" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cier/factory/Cat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/factory/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -920,6 +928,24 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#443#452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="231" column="9" lean-forward="false" selection-start-line="231" selection-start-column="9" selection-end-line="231" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/juc/Demo5_BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
