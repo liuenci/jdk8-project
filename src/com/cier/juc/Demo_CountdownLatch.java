@@ -21,6 +21,7 @@ public class Demo_CountdownLatch {
                 e.printStackTrace();
             }
         }
+        // 使当前线程在锁存器倒计数至零之前一直等待，除非线程被中断。
         countDownLatch.await();
         System.out.println("end");
         executorService.shutdown();
