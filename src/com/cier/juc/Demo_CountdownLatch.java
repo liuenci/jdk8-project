@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Demo_CountdownLatch {
-    
+
     public static void main(String[] args) throws InterruptedException {
         final int totalThread = 10;
         CountDownLatch countDownLatch = new CountDownLatch(totalThread);
