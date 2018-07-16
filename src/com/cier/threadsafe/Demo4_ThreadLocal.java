@@ -20,7 +20,7 @@ public class Demo4_ThreadLocal {
             threadLocal.set(2);
             threadLocal.remove();
         });
-        
+
         thread1.start();
         thread2.start();
     }
