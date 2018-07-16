@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d39854e-9f3d-4fb4-8b61-76800143a08a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/threadsafe/Demo1_Immutable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/threadsafe/Demo2_VectorUnsafe.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -59,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo1_Immutable.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Demo1_Immutable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cier/threadsafe/Demo1_Immutable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="209">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,11 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Demo3_Semaphore.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/cier/juc/Demo3_Semaphore.java">
+      <file leaf-file-name="Demo2_VectorUnsafe.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cier/threadsafe/Demo2_VectorUnsafe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="133">
+              <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,7 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cier/thread/Demo4.java" />
         <option value="$PROJECT_DIR$/src/com/cier/thread/Demo5.java" />
         <option value="$PROJECT_DIR$/src/com/cier/thread/Demo6.java" />
         <option value="$PROJECT_DIR$/src/com/cier/thread/Demo7.java" />
@@ -226,6 +225,7 @@
         <option value="$PROJECT_DIR$/src/com/cier/juc/Demo8_AtomicInteger.java" />
         <option value="$PROJECT_DIR$/src/com/cier/juc/Demo9_synchronized.java" />
         <option value="$PROJECT_DIR$/src/com/cier/threadsafe/Demo1_Immutable.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/threadsafe/Demo2_VectorUnsafe.java" />
       </list>
     </option>
   </component>
@@ -319,6 +319,13 @@
             <path>
               <item name="jdk8-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="jdk8-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cier" type="462c0819:PsiDirectoryNode" />
+              <item name="threadsafe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdk8-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdk8-project" type="462c0819:PsiDirectoryNode" />
               <item name="update" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -360,7 +367,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo1_Immutable">
+  <component name="RunManager" selected="Application.Demo2_VectorUnsafe">
     <configuration name="Demo1_Immutable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -380,14 +387,14 @@
       <module name="jdk8-project" />
       <envs />
     </configuration>
-    <configuration name="Demo7_ThreadUnsafeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Demo2_VectorUnsafe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.cier.juc.*" />
+          <option name="PATTERN" value="com.cier.threadsafe.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.cier.juc.Demo7_ThreadUnsafeExample" />
+      <option name="MAIN_CLASS_NAME" value="com.cier.threadsafe.Demo2_VectorUnsafe" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -491,19 +498,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Demo7_ThreadUnsafeExample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Demo_CountdownLatch" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Demo8_AtomicInteger" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Demo9_synchronized" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Demo1_Immutable" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Demo_CountdownLatch" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Demo8_AtomicInteger" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Demo9_synchronized" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Demo1_Immutable" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Demo2_VectorUnsafe" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Demo1_Immutable" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Demo9_synchronized" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Demo8_AtomicInteger" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Demo_CountdownLatch" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Demo7_ThreadUnsafeExample" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Demo2_VectorUnsafe" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Demo1_Immutable" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Demo9_synchronized" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Demo8_AtomicInteger" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Demo_CountdownLatch" />
       </list>
     </recent_temporary>
   </component>
@@ -540,12 +547,12 @@
       <workItem from="1531446951253" duration="16576000" />
       <workItem from="1531531006298" duration="14100000" />
       <workItem from="1531617324551" duration="16917000" />
-      <workItem from="1531702145168" duration="14326000" />
+      <workItem from="1531702145168" duration="15231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153723000" />
+    <option name="totallyTimeSpent" value="154628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="800" y="0" width="800" height="860" extended-state="0" />
@@ -561,7 +568,7 @@
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29931036" sideWeight="0.4974293" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29931036" sideWeight="0.4974293" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32689655" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -596,20 +603,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/cier/factorymethod/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cier/factory/AnimalFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/socket/Demo1_Receive.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1034,10 +1027,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/Java/jdk/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="239" column="6" lean-forward="false" selection-start-line="239" selection-start-column="6" selection-end-line="239" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/threadsafe/Demo1_Immutable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="209">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/threadsafe/Demo2_VectorUnsafe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="72" lean-forward="false" selection-start-line="7" selection-start-column="72" selection-end-line="7" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
