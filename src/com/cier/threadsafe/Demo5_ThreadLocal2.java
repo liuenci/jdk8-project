@@ -16,6 +16,8 @@ public class Demo5_ThreadLocal2 {
             threadLocal2.set(2);
         });
 
+        System.out.println(threadLocal1.get());
+        System.out.println(threadLocal2.get());
         thread1.start();
         thread2.start();
     }
