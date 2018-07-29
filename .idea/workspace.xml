@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d39854e-9f3d-4fb4-8b61-76800143a08a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/ms/Demo1.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/ms/Father.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/ms/Son.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/jdk8-project/com/cier/ms/Demo1.class" afterPath="$PROJECT_DIR$/out/production/jdk8-project/com/cier/ms/Demo1.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,11 +17,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Demo1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Demo1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cier/ms/Demo1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
               <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Father.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/cier/ms/Father.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <folding>
+                <element signature="e#68#69#0" expanded="true" />
+                <element signature="e#109#110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Son.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cier/ms/Son.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,8 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cier/syn/Demo5.java" />
-        <option value="$PROJECT_DIR$/src/com/cier/thread2/Demo1.java" />
         <option value="$PROJECT_DIR$/src/com/cier/thread2/Demo2.java" />
         <option value="$PROJECT_DIR$/src/com/cier/thread2/Demo3.java" />
         <option value="$PROJECT_DIR$/src/com/cier/thread2/Demo4.java" />
@@ -107,6 +130,8 @@
         <option value="$PROJECT_DIR$/src/com/cier/thread3/TraditionalThreadCommunication.java" />
         <option value="$PROJECT_DIR$/src/com/cier/thread3/ThreadScopeShareData.java" />
         <option value="$PROJECT_DIR$/src/com/cier/ms/Demo1.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/ms/Father.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/ms/Son.java" />
       </list>
     </option>
   </component>
@@ -199,6 +224,13 @@
             <path>
               <item name="jdk8-project" type="b2602c69:ProjectViewProjectNode" />
               <item name="jdk8-project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cier" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jdk8-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jdk8-project" type="462c0819:PsiDirectoryNode" />
               <item name="update" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -242,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo1">
+  <component name="RunManager" selected="Application.Son">
     <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -262,14 +294,14 @@
       <module name="jdk8-project" />
       <envs />
     </configuration>
-    <configuration name="ThreadScopeShareData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Son" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.cier.thread3.*" />
+          <option name="PATTERN" value="com.cier.ms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.cier.thread3.ThreadScopeShareData" />
+      <option name="MAIN_CLASS_NAME" value="com.cier.ms.Son" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -281,14 +313,14 @@
       <module name="jdk8-project" />
       <envs />
     </configuration>
-    <configuration name="TraditionalThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadScopeShareData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.cier.thread3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.cier.thread3.TraditionalThread" />
+      <option name="MAIN_CLASS_NAME" value="com.cier.thread3.ThreadScopeShareData" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -373,19 +405,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TraditionalThread" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TraditionalTimer" />
-      <item index="2" class="java.lang.String" itemvalue="Application.TraditionalThreadCommunication" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ThreadScopeShareData" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Demo1" />
+      <item index="0" class="java.lang.String" itemvalue="Application.TraditionalTimer" />
+      <item index="1" class="java.lang.String" itemvalue="Application.TraditionalThreadCommunication" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ThreadScopeShareData" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Demo1" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Son" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Demo1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ThreadScopeShareData" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TraditionalThreadCommunication" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TraditionalTimer" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TraditionalThread" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Son" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Demo1" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ThreadScopeShareData" />
+        <item index="3" class="java.lang.String" itemvalue="Application.TraditionalThreadCommunication" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TraditionalTimer" />
       </list>
     </recent_temporary>
   </component>
@@ -430,12 +462,12 @@
       <workItem from="1531912318213" duration="448000" />
       <workItem from="1531916689557" duration="1028000" />
       <workItem from="1531921092885" duration="49000" />
-      <workItem from="1532847679787" duration="859000" />
+      <workItem from="1532847679787" duration="1652000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178677000" />
+    <option name="totallyTimeSpent" value="179470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -448,6 +480,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.4974293" order="6" side_tool="false" content_ui="tabs" />
@@ -459,9 +492,9 @@
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2820513" sideWeight="0.4922879" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2820513" sideWeight="0.4922879" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32523617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32523617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2012894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -494,20 +527,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/update/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/cier/test/Test8_UpdateClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/test/Test8_UpdateServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -780,8 +799,8 @@
         <state relative-caret-position="426">
           <caret line="68" column="42" lean-forward="true" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
           <folding>
-            <element signature="e#173#723#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#173#723#0" expanded="false" />
+            <element signature="e#722#723#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -812,9 +831,9 @@
         <state relative-caret-position="83">
           <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#896#1061#0" expanded="true" />
-            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#896#1061#0" expanded="false" />
+            <element signature="e#1060#1061#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -840,8 +859,8 @@
         <state relative-caret-position="171">
           <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#726#727#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -858,6 +877,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/ms/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding>
+            <element signature="e#68#69#0" expanded="true" />
+            <element signature="e#109#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/ms/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
