@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d39854e-9f3d-4fb4-8b61-76800143a08a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/ms/A.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/com/cier/ms/OuterClass.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,11 +15,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="A.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="A.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/cier/ms/A.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
               <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OuterClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/cier/ms/OuterClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -56,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/cier/thread2/Demo6.java" />
         <option value="$PROJECT_DIR$/src/com/cier/thread2/Demo4_ThreadGroup.java" />
         <option value="$PROJECT_DIR$/src/com/cier/thread2/Demo7_Executors.java" />
         <option value="$PROJECT_DIR$/src/com/cier/thread2/Demo8_Callable.java" />
@@ -107,6 +116,7 @@
         <option value="$PROJECT_DIR$/src/com/cier/ms/DeepCloneExample.java" />
         <option value="$PROJECT_DIR$/src/com/cier/ms/CloneConstructorExample.java" />
         <option value="$PROJECT_DIR$/src/com/cier/ms/A.java" />
+        <option value="$PROJECT_DIR$/src/com/cier/ms/OuterClass.java" />
       </list>
     </option>
   </component>
@@ -249,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.A">
+  <component name="RunManager" selected="Application.OuterClass">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -307,14 +317,14 @@
       <module name="jdk8-project" />
       <envs />
     </configuration>
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="OuterClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.cier.ms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.cier.ms.Demo1" />
+      <option name="MAIN_CLASS_NAME" value="com.cier.ms.OuterClass" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -380,19 +390,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Demo1" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Son" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DeepCloneExample" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CloneConstructorExample" />
-      <item index="4" class="java.lang.String" itemvalue="Application.A" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Son" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DeepCloneExample" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CloneConstructorExample" />
+      <item index="3" class="java.lang.String" itemvalue="Application.A" />
+      <item index="4" class="java.lang.String" itemvalue="Application.OuterClass" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.A" />
-        <item index="1" class="java.lang.String" itemvalue="Application.CloneConstructorExample" />
-        <item index="2" class="java.lang.String" itemvalue="Application.DeepCloneExample" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Son" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Demo1" />
+        <item index="0" class="java.lang.String" itemvalue="Application.OuterClass" />
+        <item index="1" class="java.lang.String" itemvalue="Application.A" />
+        <item index="2" class="java.lang.String" itemvalue="Application.CloneConstructorExample" />
+        <item index="3" class="java.lang.String" itemvalue="Application.DeepCloneExample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Son" />
       </list>
     </recent_temporary>
   </component>
@@ -438,12 +448,12 @@
       <workItem from="1531916689557" duration="1028000" />
       <workItem from="1531921092885" duration="49000" />
       <workItem from="1532847679787" duration="3846000" />
-      <workItem from="1532872263651" duration="629000" />
+      <workItem from="1532872263651" duration="801000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="182293000" />
+    <option name="totallyTimeSpent" value="182465000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,6 +466,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.4974293" order="6" side_tool="false" content_ui="tabs" />
@@ -467,9 +478,9 @@
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2820513" sideWeight="0.4922879" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2820513" sideWeight="0.4922879" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32928476" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32523617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32523617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20415473" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -502,13 +513,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/cier/thread/Demo4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/cier/thread/Demo5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="703">
@@ -850,6 +854,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/cier/ms/OuterClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding />
         </state>
       </provider>
