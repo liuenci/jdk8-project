@@ -14,4 +14,8 @@ public class OuterClass {
         InnerClass innerClass = outerClass.new InnerClass();
         StaticInnerClass staticInnerClass = new StaticInnerClass();
     }
+
+    {
+        System.out.println("111");
+    }
 }
