@@ -24,7 +24,16 @@ public class ArrayListExample {
             value = iterator.next();
             System.out.println(value);
         }
-
+        System.out.println("==============");
+        for (int i = 0; i < arrayList.size();i++){
+            value = arrayList.get(i);
+            System.out.println(value);
+        }
+        System.out.println("==============");
         arrayList.forEach(System.out::println);
+        System.out.println("==============");
+        for (Object o:arrayList){
+            System.out.println(o);
+        }
     }
 }
