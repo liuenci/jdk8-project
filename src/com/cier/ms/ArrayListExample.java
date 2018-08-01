@@ -1,6 +1,7 @@
 package com.cier.ms;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListExample {
 
@@ -16,6 +17,13 @@ public class ArrayListExample {
         list.add("sg");
 
         arrayList.addAll(list);
+
+        Object value = null;
+        Iterator iterator = arrayList.iterator();
+        while (iterator.hasNext()){
+            value = iterator.next();
+            System.out.println(value);
+        }
 
         arrayList.forEach(System.out::println);
     }
