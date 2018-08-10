@@ -33,9 +33,9 @@ public class Demo6 {
     public static void demo1() throws IOException {
         FileOutputStream fileOutputStream = new FileOutputStream("h.txt");
         // 字节流往文件中写入数据的时候，是一个字节一个字节的写，一个字节是八位，但是一个整形是4位，就是 32 个字节，会截取最后 8 个字节进行写入。
-        fileOutputStream.write(997);
-        fileOutputStream.write(998);
-        fileOutputStream.write(999);
+        fileOutputStream.write(97);
+        fileOutputStream.write(98);
+        fileOutputStream.write(99);
         fileOutputStream.close();
     }
 }

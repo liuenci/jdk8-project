@@ -12,7 +12,7 @@ public class Demo3 {
 //        System.out.println(x);;
         // 随机写，而且不会清空里面的东西
         randomAccessFile.seek(0);
-        randomAccessFile.write(98);
+        randomAccessFile.write(99);
         randomAccessFile.close();
     }
 }
