@@ -1,12 +1,13 @@
 package com.cier.util;
 
-import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
 public class FastFailExample {
 
-    private static List<String> list = new ArrayList<>();
+    // private static List<String> list = new ArrayList<>();
+    private static List<String> list = new CopyOnWriteArrayList<>();
 
     public static void main(String[] args) {
         new ThreadOne().start();
