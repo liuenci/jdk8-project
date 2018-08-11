@@ -66,7 +66,7 @@ class Printer2 {
             System.out.print("逼");
             System.out.println();
             flag = 2;
-            // 随机唤醒单个等待的线程
+            // 随机唤醒所有等待的线程
             this.notifyAll();
         }
     }
